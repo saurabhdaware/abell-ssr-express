@@ -1,6 +1,6 @@
 # abell-ssr-express
 
-Using .abell templates on server with express
+Experimenting to use .abell templates on server with express.
 
 ## Local Setup
 
