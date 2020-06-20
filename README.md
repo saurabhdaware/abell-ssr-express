@@ -1,6 +1,6 @@
 # abell-ssr-express
 
-Experimenting to use .abell templates on server with express.
+Experimenting to use [.abell templates](https://github.com/abelljs/abell-renderer) on server with express.
 
 ## Local Setup
 
