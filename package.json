@@ -4,10 +4,11 @@
   "description": "Using .abell templates on server with express",
   "main": "server.js",
   "dependencies": {
-    "abell-renderer": "^0.1.13-alpha.1",
     "express": "^4.17.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "abell-renderer": "^0.1.13"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
