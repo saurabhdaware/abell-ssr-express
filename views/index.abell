@@ -1,0 +1,19 @@
+{{ const siteData = require('./siteData.json') }}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fruits from JSON</title>
+  </head>
+  <body>
+    <h1>Fruits</h1>
+    <ul>
+      {{ 
+        siteData.fruits.map(fruit => `
+          <li>${fruit}</li>
+        `).join('')
+      }}
+    </ul>
+    Rendered at: {{ new Date() }}<br/>
+    {{ foo }}
+  </body>
+</html>
